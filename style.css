@@ -1,0 +1,824 @@
+
+
+.ru{
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 50px;
+    color: black;
+}
+.ele{
+    font-size: 30px;
+    text-align: center;
+     padding-top: 200px;
+     margin-top: 90px;
+}
+
+#reo{
+   text-align: center;
+    width: 400px;
+    height: 5px;
+    margin-top: -40px;
+    background-color: white;
+    
+} 
+#reons{
+text-align: center;
+    width: 200px;
+    height: 2px;
+    margin-top: -20px;
+    background-color: black;
+    
+    
+}
+.lux{
+    
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 390px;
+}
+.bool{
+    background-color: red;
+    color: white;
+    margin-left: 120px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+.huj{
+    color: white;
+}
+
+.ho{
+    margin-left: 100px;
+}
+
+
+.cll{
+    font-size: 30px;
+}
+select{
+    font-size: 20px;
+}
+option > .us{
+    color: brown;
+}
+nav{
+    background-color: white;
+    color: white;
+    padding-bottom: 30px;
+    position: fixed;
+    width: 1250px;
+    
+
+    
+    
+}
+nav a{
+    color: black;
+    padding: 25px;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -90px;
+    transition:  1s;
+
+    
+}
+nav a:hover{
+    color: white; 
+    background-color: red;
+    padding: 25px ;
+    color: white;
+    border-radius: 10px;
+    padding-bottom: -10px;
+    padding-right: -20px;
+    
+}
+.free{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 140px;
+    margin-bottom: 50px;
+    animation: go 9s;
+}
+@keyframes go{
+    0%{color: red;}
+    25%{color: blue;}
+    50%{color: green;}
+    75%{color: black;}
+    100%{color: navy;}
+
+}
+
+.ree{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 60px;
+    margin-left: 70px;
+    font-weight: bolder;
+}
+
+.front{
+    background-image: url(/assets/images/h5.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+    
+
+
+}
+.asa{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    justify-content: center;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+.asa > div > img{
+    width: 250px;
+    height: 190px;
+    animation-name: run;
+    animation-duration: 9s;
+    transition: all 1s;
+}
+@keyframes run{
+from{width: 500px;
+height: 500px;}
+}
+.asa > div> img:hover{
+width: 300px;
+height: 15x
+}
+
+/* .btn > button{
+    background-color: red;
+    margin-left: 200px;
+    padding: -5px;
+} */
+ .ozum{
+    text-align: center;
+    margin-bottom: 100px;
+ }
+ .zum{
+    margin-bottom: 10px;
+ }
+ .attend{
+    background-color: red;
+ }
+ .bnt{
+    background-color: red;
+    margin-left: 580px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+ }
+ .contents{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+  gap: 20px;
+  
+
+ }
+ .contents>div>img{
+animation-name: come;
+  animation-duration: 5s;
+  transition: all 2s;
+ }
+  .contents>div>img:hover{
+    width: 300px;
+  }
+ @keyframes come{
+    from{
+        width: 400px
+    }
+ }
+ 
+ .ages > div>img{
+    border-radius: 70px;
+ }
+ .sas{
+    display: flex;
+    flex-wrap: wrap;
+
+ }
+ .aages{
+    border-radius: 90px;
+ }
+ /* .sas{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+ } */
+ .sas > div > img{
+    width: 500px;
+    height: 200px;
+   animation-name: ko;
+   animation-duration: 2s;
+   transition: all 2s;
+ }
+ @keyframes ko{
+    from{
+        width: 500px;
+    }
+ }
+  .sas > div > img:hover{
+    all: 600px;
+  }
+ /* .as{
+    margin-left: 300px;
+ } */
+  .yad{
+    
+    font-size: 15px;
+    margin-top: -60px;
+    margin-bottom: 70px;
+  }
+ .uak{
+    text-align: center;
+ }
+ .quak{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+    background-color: rgba(0, 0, 0, 0.64);
+    color: white;
+ }
+ .contents >div>img{
+    width: 250px;
+    height: 250px;
+ }
+ .bnt > a{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    
+ }
+ .bnt > a:hover{
+    background-color: navy;
+ }
+
+.box{
+    background-color: rgba(0, 0, 0, 0.178);
+    font-size: 70px;
+    border-radius: 100%;
+    padding: 20px;
+    padding-right: -90px;
+}
+.wel{
+    font-weight:bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    font-size: 30px;
+    color: navy;
+}
+
+.wsh{
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.152);
+    margin-top: -90px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    
+}
+.thi >h1{
+   font-size: 70px;
+   margin-top: -250px;
+   color: white;
+   margin-bottom: 200px;
+   margin-left: 450px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.ari{
+    text-align: center;
+    background-color: white;
+    
+}
+.qw{
+    text-align: center;
+    margin-top: 50px;
+}
+.qw > h1{
+    font-size: 40px;
+}
+.qw>p{
+    margin-top: -20px;
+}
+.ari> a{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 150px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+    transition: all ;
+}
+.ari>a:hover{
+    background-color: red;
+    color: white;
+}
+
+.thi >p{
+   font-size: 18px;
+   margin-top: -200px;
+   color: white;
+   margin-bottom: 100px;
+   margin-left: 380px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#gm >img{
+    width: 1250px;
+    height: 530px;
+
+}
+.wsh >u h1{
+    font-size: 110px;
+    color: brown;
+}
+.wsh > u{
+    color: brown;
+}
+.wsh > h2{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -50px;
+    color: brown;
+}
+.hotel > p{
+font-size: 40px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.hotel > hr{
+    text-align: center;
+    width: 200px;
+    height: 3px;
+    background-color: brown;
+    margin-top: -20px;
+}
+pre{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+.a{
+    text-align: center;
+    font-size: 18px;
+    margin-top: -30px;
+    padding-bottom: 20px;
+}
+.more{
+    background-color: rgb(158, 158, 164);
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: -50px;
+    padding-bottom: 10px;
+     padding-top: 20px;
+    
+    
+    
+}
+.more > h1{
+    text-align: center;
+    padding-top: 50px;
+    color: rgba(165, 42, 42, 0.977);
+    font-size: 90px;
+    margin-left: -490px
+    
+}
+.west{
+    color: black;
+}
+.more > hr{
+    text-align: center;
+    width: 200px;
+    height: 2px;
+    margin-top: -30px;
+    background-color: brown;
+}
+.pre{
+    color: white;
+    font-size: 20px;
+}
+button{
+    width: 200px;
+    height: 60px;
+    margin-left: -50px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    background-color: navy;
+    color: white;
+
+}
+.events{
+    background-color: rgba(165, 42, 42, 0.959);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.events > h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+.events > hr{
+    text-align: center;
+    width: 200px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+li{
+    
+    margin-left: 450px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+/* .image > div >img{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    background-position: center;
+    margin-bottom: 20px;
+    animation-name: anime;
+    animation-duration: 2s;
+
+} */
+@keyframes anime{
+from {width: 80%;
+height: 200px;}
+to {width: 100%;
+height:300px;}
+}
+.image{
+    text-align: center;
+}
+.image > a{
+    text-decoration: none;
+    font-size: 20px;
+    
+    
+    
+}
+.gal{
+    background-color: rgba(0, 0, 128, 0.778); ;
+    text-align: center;
+    margin-bottom: -30px;
+    padding-top: 20px;
+}
+.gal > h2{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.gal > p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 60px;
+}
+.gal > h{
+    text-align:center ;
+    width: 200px;
+    height: 2px;
+}
+.put> img{
+    width: 100%;
+    height: 300px;
+    animation-name: initial;
+    
+}
+.put{
+    display: flex;
+    animation: slide 6s infinite;
+}
+
+.lo{
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+.lo > h2{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    margin-bottom: -1px;
+    margin-bottom: 22px;
+}
+.lo > i{
+    
+
+}
+.lo >h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+pre{
+    color: white;
+}
+#loc{
+    margin-left: 600px;
+    color: white;
+    font-size: 35px;
+}
+.lo >hr{
+    text-align: center;
+    width: 200px;
+    height: 2px;
+    margin-bottom: 30px;
+}
+.map >img{
+    width: 100%;
+    height: 500px;
+    margin-top: -40px;
+}
+.conc{
+    font-size: 25px;
+    margin-top: -70px;
+}
+.concl{
+    color: black;
+}
+.con{
+    background-color: white;
+    padding-top: 20px;
+}
+.socials{
+    display: flex;
+    gap: 20px;
+    margin-left: 520px;
+    font-size: 30px;
+}
+.menu{
+    font-size: 28px;
+    cursor: pointer;
+    position: relative;
+    display: list-item;
+}
+.select{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    display: inline;
+}
+.menu :hover .select {
+    display: block;
+}
+.more >h1{
+    font-size: 70px;
+    color: white;
+    padding-top: 90px;
+    padding-left: 500px;
+    
+}
+.h > img{
+    
+   width: 100%;
+   height: 500px;
+    
+}
+
+#ore{
+     text-align: center;
+    width: 400px;
+    height: 2px;
+    margin-top: -70px;
+    background-color: brown;
+}
+.cherish >h3{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:40px ;
+}
+.cherish >hr{
+    width: 300px;
+    height: 2px;
+    margin-right: 900px;
+    background-color: brown;
+    margin-top: -20px;
+    
+}
+.eye > img{
+    width: 100%;
+    height: 500px;
+}
+.sw{
+    margin-top: -55px;
+    padding-right: 15px;
+}
+.rish > h3{
+    margin-left: 40px;
+}
+.rish > hr{
+    margin-left: 40px;
+}
+.ry{
+    margin-left: 85px;
+}
+.images{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.images > div img{
+    height: 300px;
+    width: 350px;
+    animation-name: rea;
+    animation-duration: 4s;
+    transition: all 2s;
+}
+@keyframes rea{
+    from{
+        width: 300px;
+    }
+}
+.images > div>img:hover{
+    height: 320px;
+    width: 370px;
+
+}
+.nte{
+    text-align: center;
+}
+.nte > button{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    width: 110px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.cla > div >img{
+    width: 100%;
+    height: 650px;
+
+    
+}
+.form{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.conf > h1{
+font-size: 70px;
+margin-top: -500px;
+text-align: center;
+color: white;
+padding-top: 60px;
+}
+.h{
+    color: white;
+}
+nav > span > img{
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 20px
+}
+#cal{
+    margin-top: 90px;
+}
+.ws{
+    margin-top: 2px;
+}
+section{
+    animation-name: gn;
+    animation-duration: 2s;
+    
+}
+.enter{
+    background-color: white;
+    width: 360px;
+    height: 5px;
+    margin-bottom: 30px;
+}
+input{
+    padding: 10px;
+    font-size: 15px;
+    width: 400px;
+    border-radius: 10px;
+}
+textarea{
+    width: 415px;
+    height: 200px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+form{
+    margin-left: 100px;
+}
+.send{
+    background-color: brown;
+    margin-left: 5px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+}
+.m{
+    font-size: 50px;
+    margin-left: 290px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.o{
+    background-color: red;
+    width: 500px;
+    height: 10px;
+    margin-top: -20px;
+}
+.pol > div > img{
+    width: 100%;
+    height:400px;
+}
+.lee{
+    margin-top: -150px;
+}
+.ched > div > img{
+    width: 100%;
+    height: 400px;
+}
+.more > h2{
+    margin-left: 500px;
+}
+.cherubim > pre{
+    color: black;
+}
+.cherubim{
+    margin-top: -230px;
+}
+.nm{
+    background-color: purple;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.nm > .cherubim > pre{
+    color: white;
+}
+.ase{
+    color: black;
+}
+.aria{
+    display: flex;
+    gap: 90px;
+}
+.content{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    font-weight: bold;
+}
+
+#item > h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#item > h3{
+    font-style: italic;
+    color: orange;
+
+}
+.gap {
+    
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+

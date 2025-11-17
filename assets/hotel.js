@@ -1,0 +1,1 @@
+alert("WELCOME TO RUMI-SWISS HOTEL")
